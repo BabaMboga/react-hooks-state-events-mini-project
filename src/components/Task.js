@@ -3,7 +3,7 @@ import React from "react";
 function Task({category, text, onDelete}) {
 
   const handleDelete = () => {
-    onDelete();
+    onDelete(text);
   };
   return (
     <div className="task">
